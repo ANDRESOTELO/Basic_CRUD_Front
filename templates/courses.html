@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block body %} 
+
+{% with messages = get_flashed_messages () %}
+{% if messages  %}
+    {% for message in messages %}
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            {{ message }}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    {% endfor %}
+{% endif %}
+{% endwith %}
+
+<h2 style="padding: 20px">
+    Courses Form
+</h2>
+<div class="row">
+    <div class="col-md-8">
+        <div class="card card-body">
+            <form action="/courses" method="POST">
+                <input type="number" name="class_id" placeholder="ID Class">
+                <input type="text" name="name" placeholder="Course Name">
+                <input type="text" name="description" placeholder="Description">
+                <input type="number" name="cost" placeholder="Cost">
+                <input type="number" name="duration" placeholder="Duration (in hours)">
+                <input type="text" name="remote" placeholder="Remote (Y/N)">
+                <input type="text" name="on_site" placeholder="OnSite (Y/N)">
+                <button type="submit">Save Course</button>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}
