@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block body %} 
+
+{% with messages = get_flashed_messages () %}
+{% if messages  %}
+    {% for message in messages %}
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            {{ message }}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    {% endfor %}
+{% endif %}
+{% endwith %}
+<h2 style="padding: 20px 0px;">
+    Update form
+</h2>
+<p>With this form, you can update the student database</p>
+<div class="row">
+    <div class="col-md-8">
+        <div class="card card-body">
+            <form action="/students/list/update/{{ student.0 }}" method="POST">
+                <input type="number" name="student_id" placeholder="ID Student" value="{{ student.0 }}">
+                <input type="text" name="name" placeholder="First Name" value="{{ student.1 }}">
+                <input type="text" name="last_name" placeholder="Last Name" value="{{ student.2 }}">
+                <input type="text" name="email" placeholder="Email" value="{{ student.3 }}">
+                <input type="number" name="current_student" placeholder="Is active" value="{{ student.4}}">
+                <button type="submit">Save Changes</button>
+            </form>            
+        </div>
+    </div>
+</div>
+{% endblock %}
