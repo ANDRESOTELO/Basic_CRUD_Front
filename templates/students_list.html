@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+
+{% block body %} 
+
+<table class="table table-hover">
+    <tr>
+        <th scope="col">ID Student</th>
+        <th scope="col">Name</th>
+        <th scope="col">Last Name</th>
+        <th scope="col">Email</th>
+        <th scope="col">Is Active</th>
+        <th scope="col">Update Options</th>
+    </tr>
+    <tbody>
+        {% for student in students %}
+            <tr>
+                <td>{{ student.0 }}</td>
+                <td>{{ student.1 }}</td>
+                <td>{{ student.2 }}</td>
+                <td>{{ student.3 }}</td>
+                <td>{{ student.4 }}</td>
+                <td>
+                    <a href="/students/list/edit/{{ student.0 }}" class="btn btn-outline-success">Update</a>
+                    <a href="/students/list/delete/{{ student.0 }}" class="btn btn-outline-warning">Delete</a>
+                </td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
