@@ -59,7 +59,7 @@ To run server:
 
 > http://127.0.0.1:5000/ or http://localhost:5000/
 
-(https://previews.dropbox.com/p/thumb/ABMe8cV4HpjpQKLoq_KZ-jId_gPnniz8uDe44EUi757yMgzAJNk1rM-iuZk1t-5xKHkfG9iNdkC70u-mtyhVcLlBbeDVrkpWD_2FnY4YdFjvlvWqnLD9TOplGeEtArkHYKCALFnk6E-AJkNup_IrU44YprRMNlw6kC3kHWz-Q9xTsVHb8o_SjUimeW2XFwwAATYrCiUu8kqzE3PhgEJxkZB0MFoxJf8icJnrV4OtWy0nQUlhax5NNHjfhCR3FMlwI3RqkVFsf5x8vJ2sSFJ8vAJnZ7j3chXHZg49L-v5XhORiGTLXtLzsaTZjLJHP0Ekbjfo8DqBRwJJ7CRSdOkqsqYjD99lkrxOzYOJrf-c1WGLlQ/p.png?fv_content=true&size_mode=5)
+![enter image description here](https://previews.dropbox.com/p/thumb/ABO1McNVZ76x3HTIhUfWLGGGQwkiYycwOXOKZ3kvRbRfjbNkchUwQ-ND1TH_4T3ynQzgxVIT3Vn3D5Oo6TsJ83f0JGHqcq2ZIDzx9a0Si9M9aHzK2231eBy4RrwIjFa1uhaVGbI-YSuD1Me3Vry8lYxP4gWOiuRVmBr8vCZ2Hb5jg-gBDymhf7YQw2SC1X2U8ZDSlJVFd3H6CP__pKh-H6kMpgPBDVsmJdflgbyKR6Uw6orXI1wzlYjSiSniuPVZiTQm73MzxYdi7iAZExOa_ljZhO5EtJe1SmVnC6u3b7BSB1XUY5hqkj3CBjyi45GC7yucE_4MXhZ8Aeldx0rh76fNqghDUqLH2B6_JKWkMvo13Q/p.png?fv_content=true&size_mode=5)
 
 ## Interact with the App
 
@@ -74,5 +74,7 @@ You can also edit or delete student records only with a button.
 
 ## Author
 
-Andrés Sotelo | Software Developer [LinkedIn] [Github] (https://github.com/ANDRESOTELO/izeven_test)(https://www.linkedin.com/in/andresotelo/)
+Andrés Sotelo | Software Developer 
+- [LinkedIn] (https://www.linkedin.com/in/andresotelo/)
+- [Github] (https://github.com/ANDRESOTELO/izeven_test)
 Bogotá | Colombia
