@@ -1,5 +1,5 @@
-# Izeven technical test
-For this technical test, I have been asked to create a web application with which the user can interact with a database, perform basic interactions (CRUD) with some of the tables and display information from some of the tables in the browser. 
+# CRUD Application
+For this CRUD I create a web application with which the user can interact with a database, perform basic interactions (CRUD) with some of the tables and display information from some of the tables in the browser. 
 # Technologies
 For the backend:
 - Python
@@ -74,5 +74,4 @@ You can also edit or delete student records only with a button.
 
 Andrés Sotelo | Software Developer 
 - [LinkedIn] (https://www.linkedin.com/in/andresotelo/)
-- [Github] (https://github.com/ANDRESOTELO/izeven_test)
 Bogotá | Colombia
